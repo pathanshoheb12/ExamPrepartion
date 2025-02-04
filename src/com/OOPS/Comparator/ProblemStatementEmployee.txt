@@ -1,0 +1,7 @@
+1)Problem Statement
+You are given a list of Employee objects, where each Employee has a name and a salary. Your task is to sort this list based on the following criteria:
+
+Primary Sort: By salary in ascending order.
+Secondary Sort: If two employees have the same salary, sort them by name in alphabetical order.
+
+==================================================================================================

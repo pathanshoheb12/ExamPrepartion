@@ -1,0 +1,15 @@
+Problem Statement: Employee Data Processing
+
+You are given a list of Employee objects, each containing the following fields:
+
+int id
+String name
+String department
+double salary
+Your task is to perform the following operations using Java Streams:
+
+Filter: Find all employees who belong to the “Engineering” department.
+Sort: Sort the employees by their salary in descending order.
+Map: Create a list of employee names.
+Reduce: Calculate the total salary of all employees.
+Collect: Group employees by their department.

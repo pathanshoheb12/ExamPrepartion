@@ -1,0 +1,10 @@
+Problem 1: Sum of Two Integers
+Create a lambda expression that calculates the sum of two integers. The lambda should take two integers as input and return their sum.
+Problem 2: Check if String is Empty
+Design a lambda expression that checks if a given string is empty. The lambda should take a string as input and return a boolean indicating whether the string is empty.
+Problem 3: Convert List of Strings to Uppercase
+Formulate a lambda expression that converts all strings in a list to uppercase. The lambda should take a list of strings as input and return a new list with all strings in uppercase.
+Problem 4: Filter Even Numbers from a List
+Develop a lambda expression that filters out even numbers from a list of integers. The lambda should take a list of integers as input and return a new list containing only the even numbers.
+Problem 5: Sort List of Strings Alphabetically
+Create a lambda expression that sorts a list of strings in alphabetical order. The lambda should take a list of strings as input and return a new list sorted alphabetically.
