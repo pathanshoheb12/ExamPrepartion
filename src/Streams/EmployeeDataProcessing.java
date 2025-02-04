@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 public class EmployeeDataProcessing {
     public static void main(String[] args) {
+        //
 
         List<Employee> employees = Arrays.asList(
                 new Employee(1, "Alice", "Engineering", 75000),
