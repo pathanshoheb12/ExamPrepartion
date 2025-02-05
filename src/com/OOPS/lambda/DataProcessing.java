@@ -15,7 +15,7 @@ public class DataProcessing {
         listOfInteger.add(5);
         listOfInteger.add(10);
         listOfInteger.add(7);
-        DataProcessor doubleList = (list) -> list.stream().map(n -> n * n).collect(Collectors.toList());
+        DataProcessor doubleList = (list) -> list.stream().map(n -> n * 2).collect(Collectors.toList());
         System.out.println("Doubles each number in the list : ");
         System.out.println(applyProcessor(doubleList, listOfInteger));
 
