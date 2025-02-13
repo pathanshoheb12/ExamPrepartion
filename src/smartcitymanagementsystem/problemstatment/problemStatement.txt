@@ -1,0 +1,26 @@
+problem Statement: "Smart City Management System"
+Description:
+Develop a Smart City Management System that manages various city services like citizen records, traffic control, waste management, water supply, and emergency services using Core Java concepts.
+Core Java Topics Covered:
+OOPs (Encapsulation, Inheritance, Polymorphism, Abstraction)
+Create classes like Citizen, TrafficService, WasteManagement, WaterSupply, and EmergencyService.
+Encapsulation: Keep citizen details private and expose only necessary information through getter/setter methods.
+Inheritance: Citizen can be extended to Resident and Tourist.
+Polymorphism: Different implementations of processRequest() for various services.
+Abstraction: Define an interface CityService with methods like provideService().
+Collections Framework
+Use ArrayList to store citizen details and service requests.
+Use HashMap<String, Integer> to track available resources (e.g., police vehicles).
+Use Queue to manage emergency requests in order of priority.
+Exception Handling
+Handle scenarios like "Invalid Citizen ID", "Service Not Available", or "Traffic Violation Detected".
+Implement custom exceptions like ServiceNotAvailableException.
+Multithreading
+Implement multiple threads to manage simultaneous activities like garbage collection, water supply, and emergency response.
+Use synchronization to prevent conflicts when multiple services try to access shared resources.
+File Handling
+Store and retrieve citizen details, service requests, and complaints using BufferedReader and BufferedWriter.
+Use serialization (ObjectOutputStream, ObjectInputStream) to save/load city data.
+Lambda Expressions & Stream API
+Use streams to filter citizens based on age or service requests.
+Apply lambda expressions for sorting service requests based on priority.
